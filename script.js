@@ -63,7 +63,9 @@ window.addEventListener('load', function() {
             this.fontSize = 80;
             this.fontFamily = {
                 'Bangers': "Bangers",
-                "helvetica": "helvetica"
+                "helvetica": "helvetica",
+                "impact": "impact",
+                "Montserrat": "Montserrat"
             };
             this.fontFamilySelect = document.getElementById('fontFamilySelect');
             this.fontFamilySelect.addEventListener('change', (e) => {
