@@ -17,8 +17,11 @@ canvas {
     object-fit: cover;
 }
 
-input {
+.input {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px;
@@ -26,10 +29,13 @@ input {
 }
 
 select {
-    position: absolute;
-    width: calc(10% - 20px);
-    top: 8%;
-    padding: 10px;
-    margin: 10px;
+    width: calc(15% - 20px);
+    padding: 5px;
+    z-index: 100;
+}
+
+input {
+    width: calc(85% - 20px);
+    padding: 5px;
     z-index: 100;
 }
