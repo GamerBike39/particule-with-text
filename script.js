@@ -167,7 +167,7 @@ window.addEventListener('load', function() {
     }
 
     const effect = new Effect(ctx, canvas.width, canvas.height);
-    effect.wrapText('trop cool 🤩');
+    effect.wrapText(effect.textInput.value);
     effect.render();
 
     function animate(){
